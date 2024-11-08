@@ -1,0 +1,11 @@
+package com.spring.react.ems.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.spring.react.ems.entity.Employee;
+
+public interface EmployeeRepository extends JpaRepository<Employee, Long>{
+	
+	
+	
+}
